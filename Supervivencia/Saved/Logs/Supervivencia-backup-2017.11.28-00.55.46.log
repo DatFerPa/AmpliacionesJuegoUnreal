@@ -1,0 +1,820 @@
+﻿Log file open, 11/27/17 23:57:29
+LogInit:Display: Running engine for game: Supervivencia
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1779389288) SRandInit(-1779389288).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.085092
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.27-22.57.30:375][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.27-22.57.30:375][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.27-22.57.30:397][  0]LogInit: Computer: DESKTOP-0PG52OH
+[2017.11.27-22.57.30:397][  0]LogInit: User: jordansoy
+[2017.11.27-22.57.30:397][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.11.27-22.57.30:397][  0]LogInit: High frequency timer resolution =2.531248 MHz
+[2017.11.27-22.57.30:398][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.27-22.57.30:398][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.27-22.57.30:398][  0]LogMemory: Process Physical Memory: 273.29 MB used, 273.29 MB peak
+[2017.11.27-22.57.30:398][  0]LogMemory: Process Virtual Memory: 266.44 MB used, 266.44 MB peak
+[2017.11.27-22.57.30:398][  0]LogMemory: Physical Memory: 7678.18 MB used,  8565.73 MB free, 16243.91 MB total
+[2017.11.27-22.57.30:398][  0]LogMemory: Virtual Memory: 642.39 MB used,  8565.73 MB free, 134217728.00 MB total
+[2017.11.27-22.57.30:466][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.11.27-22.57.30:466][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.11.27-22.57.31:503][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.27-22.57.31:509][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.11.27-22.57.31:509][  0]LogD3D11RHI:       128/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2017.11.27-22.57.31:994][  0]LogD3D11RHI:    1. 'AMD Radeon(TM) R5 M330' (Feature Level 11_0)
+[2017.11.27-22.57.31:994][  0]LogD3D11RHI:       2039/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2017.11.27-22.57.31:995][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.27-22.57.31:995][  0]LogD3D11RHI:       0/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.27-22.57.31:995][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2017.11.27-22.57.32:160][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.27-22.57.32:160][  0]LogD3D11RHI:     GPU DeviceId: 0x6660 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.27-22.57.32:160][  0]LogWindows: EnumDisplayDevices:
+[2017.11.27-22.57.32:160][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.11.27-22.57.32:160][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:1)
+[2017.11.27-22.57.32:160][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.11.27-22.57.32:160][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.27-22.57.32:160][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R5 M330
+[2017.11.27-22.57.32:160][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.27-22.57.32:160][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.27-22.57.32:160][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.27-22.57.32:178][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.27-22.57.32:190][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.11.27-22.57.32:192][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Intermediate/Shaders/WorkingDirectory/845456/).
+[2017.11.27-22.57.32:192][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jordansoy/AppData/Local/Temp/UnrealShaderWorkingDir/64EC37EA486703DDC53B49A757AB0562/'.
+[2017.11.27-22.57.32:192][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.27-22.57.33:274][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.27-22.57.33:327][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.27-22.57.33:377][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.27-22.57.33:427][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.27-22.57.33:479][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.27-22.57.33:529][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.27-22.57.33:579][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.27-22.57.33:630][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.27-22.57.33:677][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.27-22.57.33:728][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.27-22.57.33:787][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.27-22.57.33:855][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.27-22.57.33:920][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.27-22.57.33:984][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.27-22.57.34:043][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.27-22.57.34:167][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.27-22.57.34:167][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.27-22.57.34:210][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.27-22.57.34:318][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.27-22.57.34:366][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.27-22.57.34:432][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.27-22.57.34:586][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.27-22.57.34:681][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.27-22.57.34:748][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.27-22.57.34:748][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.27-22.57.35:238][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.27-22.57.35:342][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/jordansoy/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.27-22.57.35:342][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jordansoy/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.27-22.57.35:342][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.27-22.57.35:342][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.27-22.57.35:342][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.27-22.57.35:342][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.27-22.57.35:363][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.27-22.57.35:376][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jordansoy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.27-22.57.35:386][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.27-22.57.35:387][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.27-22.57.35:387][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.27-22.57.35:387][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.27-22.57.35:700][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.27-22.57.35:801][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.27-22.57.35:960][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.27-22.57.36:016][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.27-22.57.36:063][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.27-22.57.36:063][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.27-22.57.36:063][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.27-22.57.36:704][  0]LogNetVersion: Supervivencia , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1556410374)
+[2017.11.27-22.57.36:765][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2017.11.27-22.57.36:820][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.025900 seconds
+[2017.11.27-22.57.36:828][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.27-22.57.36:828][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.11.27-22.57.36:828][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.27-22.57.36:911][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.27-22.57.39:532][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.27-22.57.39:586][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.27-22.57.40:123][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.27-22.57.40:514][  0]SourceControl: Info Source control is disabled
+[2017.11.27-22.57.40:549][  0]SourceControl: Info Source control is disabled
+[2017.11.27-22.57.40:595][  0]SourceControl: Info Source control is disabled
+[2017.11.27-22.57.40:638][  0]SourceControl: Info Source control is disabled
+[2017.11.27-22.57.41:269][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.27-22.57.41:873][  0]LogEngine: Initializing Engine...
+[2017.11.27-22.57.41:874][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.27-22.57.42:093][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.27-22.57.42:093][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.27-22.57.42:252][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.27-22.57.42:268][  0]LogInit: XAudio2 using 'Altavoces (USB headset BSF)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-22.57.42:288][  0]LogInit: FAudioDevice initialized.
+[2017.11.27-22.57.42:333][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/jordansoy/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.27-22.57.42:348][  0]LogInit: Texture streaming: Enabled
+[2017.11.27-22.57.42:446][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.27-22.57.42:869][  0]LogInit: Transaction tracking system initialized
+[2017.11.27-22.57.43:193][  0]BlueprintLog: New page: Editor Load
+[2017.11.27-22.57.44:227][  0]LocalizationService: Info Localization service is disabled
+[2017.11.27-22.57.45:251][  0]LogConsoleResponse:Display: 
+[2017.11.27-22.57.45:413][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.27-22.57.45:413][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.27-22.57.46:376][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/' took 0.02s
+[2017.11.27-22.57.46:420][  0]SourceControl: Info Source control is disabled
+[2017.11.27-22.57.46:420][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.27-22.57.46:421][  0]LightingResults: New page: Lighting Build
+[2017.11.27-22.57.46:466][  0]MapCheck: New page: Map Check
+[2017.11.27-22.57.46:466][  0]LightingResults: New page: Lighting Build
+[2017.11.27-22.57.48:018][  0]LogAIModule: Creating AISystem for world Level2
+[2017.11.27-22.57.48:755][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.27-22.57.48:794][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.27-22.57.48:846][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.731ms to complete.
+[2017.11.27-22.57.48:846][  0]LogFileHelpers: Loading map 'Level2' took 2.426
+[2017.11.27-22.57.49:090][  0]LogCollectionManager: Loaded 0 collections in 0.001519 seconds
+[2017.11.27-22.57.49:198][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/Collections/' took 0.01s
+[2017.11.27-22.57.49:198][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Developers/jordansoy/Collections/' took 0.01s
+[2017.11.27-22.57.49:198][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Collections/' took 0.01s
+[2017.11.27-22.57.49:198][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.27-22.57.49:208][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2329 classes and 491 folders.
+[2017.11.27-22.57.49:275][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.27-22.57.49:749][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.27-22.57.49:802][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.27-22.57.49:881][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.27-22.57.49:888][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.27-22.57.49:891][  0]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.27-22.57.49:903][  0]LogSlate: Took 0.006119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.27-22.57.50:090][  0]LogRenderer: Reallocating scene render targets to support 984x376 NumSamples 1 (Frame:1).
+[2017.11.27-22.57.50:475][  0]LogSlate: Took 0.005723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.27-22.57.50:587][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.27-22.57.50:659][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.27-22.57.50:659][  0]LogLoad: (Engine Initialization) Total time: 22.06 seconds
+[2017.11.27-22.57.50:660][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2017.11.27-22.57.50:660][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.27-22.57.50:660][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.27-22.57.50:999][  0]LogOcInput: OculusInput pre-init called
+[2017.11.27-22.57.50:999][  0]LogHMD: Starting GearVRController plugin
+[2017.11.27-22.57.51:039][  0]LogContentStreaming: Texture pool size now 600 MB
+[2017.11.27-22.57.51:333][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/' took 0.32s
+[2017.11.27-22.57.51:358][  1]LogAssetRegistry: Asset discovery search completed in 14.6154 seconds
+[2017.11.27-22.57.51:361][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.27-22.57.51:361][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2017.11.27-22.57.54:342][ 10]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.27-22.59.32:528][307]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.27-22.59.33:046][307]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 112 classes and 0 folders.
+[2017.11.27-22.59.33:692][307]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.27-22.59.33:839][307]LogSlate: Took 0.005100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.27-22.59.34:059][308]LogSlate: Took 0.005847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.27-23.00.25:180][994]BlueprintLog: New page: Compile Jugador
+[2017.11.27-23.00.25:693][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Jugador.uasset" SILENT=true
+[2017.11.27-23.00.25:795][999]LogSavePackage: Save=86.27ms
+[2017.11.27-23.00.25:795][999]LogSavePackage: Moving '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/JugadorDEEAB8E949B9AAE4BA7B0E88410BEC56.tmp' to '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Jugador.uasset'
+[2017.11.27-23.00.25:799][999]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Jugador.uasset
+[2017.11.27-23.00.27:787][ 48]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-23.00.27:879][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-23.00.27:881][ 48]PIE: New page: PIE session: Level2 (Nov 28, 2017, 1:00:27 AM)
+[2017.11.27-23.00.27:881][ 48]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2017.11.27-23.00.27:899][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018179s)
+[2017.11.27-23.00.27:900][ 48]LogAIModule: Creating AISystem for world Level2
+[2017.11.27-23.00.27:900][ 48]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2017.11.27-23.00.27:900][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.019265s)
+[2017.11.27-23.00.27:937][ 48]LogInit: XAudio2 using 'Altavoces (USB headset BSF)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-23.00.27:947][ 48]LogInit: FAudioDevice initialized.
+[2017.11.27-23.00.27:990][ 48]LogLoad: Game class is 'ModoSupervivencia_C'
+[2017.11.27-23.00.27:995][ 48]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2017.11.28-00.00.27
+[2017.11.27-23.00.28:000][ 48]LogWorld: Bringing up level for play took: 0.008198
+[2017.11.27-23.00.28:046][ 48]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.11.27-23.00.28:050][ 48]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 0.256
+[2017.11.27-23.05.12:020][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Jugador.uasset" SILENT=true
+[2017.11.27-23.05.12:114][553]LogSavePackage: Save=86.05ms
+[2017.11.27-23.05.12:114][553]LogSavePackage: Moving '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/Jugador3CFBB1A84171381C3FD4EFA3FCB9574D.tmp' to '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Jugador.uasset'
+[2017.11.27-23.05.12:116][553]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Jugador.uasset
+[2017.11.27-23.05.13:239][579]BlueprintLog: New page: Compile Jugador
+[2017.11.27-23.05.15:243][619]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-23.05.15:265][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-23.05.15:265][619]PIE: New page: PIE session: Level2 (Nov 28, 2017, 1:05:15 AM)
+[2017.11.27-23.05.15:265][619]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2017.11.27-23.05.15:302][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036436s)
+[2017.11.27-23.05.15:303][619]LogAIModule: Creating AISystem for world Level2
+[2017.11.27-23.05.15:303][619]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2017.11.27-23.05.15:303][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.037841s)
+[2017.11.27-23.05.15:340][619]LogInit: XAudio2 using 'Altavoces (USB headset BSF)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-23.05.15:349][619]LogInit: FAudioDevice initialized.
+[2017.11.27-23.05.15:388][619]LogLoad: Game class is 'ModoSupervivencia_C'
+[2017.11.27-23.05.15:392][619]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2017.11.28-00.05.15
+[2017.11.27-23.05.15:393][619]LogWorld: Bringing up level for play took: 0.004074
+[2017.11.27-23.05.15:395][619]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 -0.398
+[2017.11.27-23.05.19:411][710]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-23.05.19:434][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-23.05.19:434][710]PIE: New page: PIE session: Level2 (Nov 28, 2017, 1:05:19 AM)
+[2017.11.27-23.05.19:434][710]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2017.11.27-23.05.19:466][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031675s)
+[2017.11.27-23.05.19:466][710]LogAIModule: Creating AISystem for world Level2
+[2017.11.27-23.05.19:467][710]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2017.11.27-23.05.19:467][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.033065s)
+[2017.11.27-23.05.19:530][710]LogInit: XAudio2 using 'Altavoces (USB headset BSF)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-23.05.19:538][710]LogInit: FAudioDevice initialized.
+[2017.11.27-23.05.19:570][710]LogLoad: Game class is 'ModoSupervivencia_C'
+[2017.11.27-23.05.19:574][710]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2017.11.28-00.05.19
+[2017.11.27-23.05.19:574][710]LogWorld: Bringing up level for play took: 0.004010
+[2017.11.27-23.05.19:576][710]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 -0.217
+[2017.11.27-23.09.49:039][379]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level2' took 0.036
+[2017.11.27-23.09.49:043][379]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ModoSupervivencia] ([1] browsable assets)...
+[2017.11.27-23.09.49:043][379]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModoSupervivencia]
+[2017.11.27-23.09.49:079][379]LogSavePackage: Save=22.97ms
+[2017.11.27-23.09.49:079][379]LogSavePackage: Moving '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/ModoSupervivencia_Auto1BCBB244C489CE8CEEC51119A33D08048.tmp' to '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/Autosaves/Game/ModoSupervivencia_Auto1.uasset'
+[2017.11.27-23.09.49:082][379]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/Autosaves/Game/ModoSupervivencia_Auto1.uasset
+[2017.11.27-23.09.49:082][379]LogFileHelpers: Auto-saving content packages took 0.043
+[2017.11.27-23.13.20:744][ 80]BlueprintLog: New page: Compile ModoSupervivencia
+[2017.11.27-23.13.22:388][109]BlueprintLog: New page: Compile ModoSupervivencia
+[2017.11.27-23.13.23:198][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModoSupervivencia" FILE="../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/ModoSupervivencia.uasset" SILENT=true
+[2017.11.27-23.13.23:235][122]LogSavePackage: Save=29.26ms
+[2017.11.27-23.13.23:235][122]LogSavePackage: Moving '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/ModoSupervivencia185F38204EF48291460683A54DF51166.tmp' to '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/ModoSupervivencia.uasset'
+[2017.11.27-23.13.23:240][122]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/ModoSupervivencia.uasset
+[2017.11.27-23.13.29:274][242]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-23.13.29:298][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-23.13.29:298][242]PIE: New page: PIE session: Level2 (Nov 28, 2017, 1:13:29 AM)
+[2017.11.27-23.13.29:298][242]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2017.11.27-23.13.29:330][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032354s)
+[2017.11.27-23.13.29:331][242]LogAIModule: Creating AISystem for world Level2
+[2017.11.27-23.13.29:332][242]LogPlayLevel: PIE: World Init took: (0.001190s)
+[2017.11.27-23.13.29:332][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.033899s)
+[2017.11.27-23.13.29:370][242]LogInit: XAudio2 using 'Altavoces (USB headset BSF)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-23.13.29:380][242]LogInit: FAudioDevice initialized.
+[2017.11.27-23.13.29:415][242]LogLoad: Game class is 'ModoSupervivencia_C'
+[2017.11.27-23.13.29:419][242]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2017.11.28-00.13.29
+[2017.11.27-23.13.29:420][242]LogWorld: Bringing up level for play took: 0.004595
+[2017.11.27-23.13.29:422][242]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 -0.371
+[2017.11.27-23.16.04:591][ 58]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.27-23.16.04:791][ 58]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.27-23.16.04:855][ 58]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.11.27-23.16.05:267][ 58]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2017.11.27-23.16.05:277][ 58]LogRenderer: Reallocating scene render targets to support 1144x548 NumSamples 1 (Frame:1).
+[2017.11.27-23.16.05:277][ 58]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.11.27-23.18.00:405][927]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MixamoAnimPack/Mixamo_Vampire/Anims/Maximo_Vampire_Shooting.Maximo_Vampire_Shooting
+[2017.11.27-23.18.49:875][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_0.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:883][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.11.27-23.18.49:883][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.11.27-23.18.49:884][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.11.27-23.18.49:884][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.11.27-23.18.49:884][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2017.11.27-23.18.49:884][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.11.27-23.18.49:884][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2017.11.27-23.18.49:885][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_1.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:888][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning [1281.29] Compile of MixamoCharacter_Master successful, but with 7 Warning(s) [in 10 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2017.11.27-23.18.49:888][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning [1281.29] Compile of MixamoCharacter_Master successful, but with 8 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2017.11.27-23.18.49:888][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning [1281.29] Compile of MixamoCharacter_Master successful, but with 9 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2017.11.27-23.18.49:896][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.11.27-23.18.49:896][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.11.27-23.18.49:897][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.11.27-23.18.49:897][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.11.27-23.18.49:897][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2017.11.27-23.18.49:897][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.11.27-23.18.49:897][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2017.11.27-23.18.49:898][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_2.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:901][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning [1281.30] Compile of MixamoCharacter_Master successful, but with 7 Warning(s) [in 10 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2017.11.27-23.18.49:901][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning [1281.30] Compile of MixamoCharacter_Master successful, but with 8 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2017.11.27-23.18.49:901][687]LogBlueprint:Warning: [Compiler MixamoCharacter_Master] Warning [1281.30] Compile of MixamoCharacter_Master successful, but with 9 Warning(s) [in 0 ms] (/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master)
+[2017.11.27-23.18.49:937][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EdGraph_0.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:937][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EdGraph_0.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:937][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EdGraph_0.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:937][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EdGraph_0.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:937][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EdGraph_0.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:952][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EdGraph_1.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:952][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EdGraph_1.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:952][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EdGraph_1.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:952][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EdGraph_1.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:952][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EdGraph_1.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:969][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EdGraph_2.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:969][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EdGraph_2.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:969][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EdGraph_2.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:969][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EdGraph_2.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:969][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EdGraph_2.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:984][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:984][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:984][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:984][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:984][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:984][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:984][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:984][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:985][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:986][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:986][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:986][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:986][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:986][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:986][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:986][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:986][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:986][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:986][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:986][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:986][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:986][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:986][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:986][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:999][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.AnimGraphNode_BlendSpacePlayer_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:999][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_Root_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.49:999][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2.Run Jump.AnimGraphNode_SequencePlayer_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3.Jump.AnimGraphNode_SequencePlayer_483' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7.attacking.AnimGraphNode_SequencePlayer_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.AnimGraphNode_StateResult_20' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2.Run Jump.AnimGraphNode_StateResult_15' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3.Jump.AnimGraphNode_StateResult_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7.attacking.AnimGraphNode_StateResult_188' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_20' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.AnimGraphNode_TransitionResult_467' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_28' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.AnimGraphNode_TransitionResult_142' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.AnimGraphNode_TransitionResult_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.AnimGraphNode_TransitionResult_148' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_233' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateEntryNode_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.EdGraphNode_Comment_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.EdGraphNode_Comment_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:000][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.EdGraphNode_Comment_26' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.K2Node_CallFunction_91451' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_CallFunction_11224' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_224620' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_2831' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_CallFunction_92056' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.K2Node_CallFunction_225505' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:CanJump.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_CallFunction_108580' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_CallFunction_162498' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_CallFunction_169492' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_CallFunction_227144' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_CallFunction_29781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_CallFunction_29886' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_CallFunction_45546' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_CallFunction_45889' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_CommutativeAssociativeBinaryOperator_211' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CommutativeAssociativeBinaryOperator_77' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:001][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:CanJump.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_521' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_DynamicCast_120' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_DynamicCast_127' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_DynamicCast_99' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_Event_1003' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_Event_2429' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_Event_85' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_ExecutionSequence_180' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:CanJump.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:CanJump.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_IfThenElse_332' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_IfThenElse_413' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.K2Node_TransitionRuleGetter_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_TransitionRuleGetter_17' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_TransitionRuleGetter_182' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.K2Node_VariableGet_589' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1.Transition.K2Node_VariableGet_208' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_VariableGet_125' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_VariableGet_129' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_1066' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_74' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.K2Node_VariableGet_1084' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8.Transition.K2Node_VariableGet_624' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:CanJump.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_VariableGet_1007' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_VariableGet_1157' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_VariableGet_3156' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_VariableSet_1402' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_VariableSet_2289' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_VariableSet_2465' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:002][687]LogBlueprint:Warning: Node '/Game/MixamoAnimPack/Mixamo_Vampire/Anims/MixamoAnimBP_Vampire.MixamoAnimBP_Vampire:EventGraph.K2Node_VariableSet_74' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.11.27-23.18.50:095][687]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.27-23.18.50:334][687]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.11.27-23.21.01:003][542]LogSavePackage: Save=312.94ms
+[2017.11.27-23.21.01:003][542]LogSavePackage: Moving '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/Level2_Auto2F2E5C3924AFE34F1FCD4C7840F7516FD.tmp' to '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/Autosaves/Game/Level2_Auto2.umap'
+[2017.11.27-23.21.01:006][542]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/Autosaves/Game/Level2_Auto2.umap
+[2017.11.27-23.21.01:009][542]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level2' took 0.387
+[2017.11.27-23.21.01:009][542]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.387
+[2017.11.27-23.21.01:012][542]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animaciones/EnemigoBlendSpace1D] ([1] browsable assets)...
+[2017.11.27-23.21.01:041][542]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/Animaciones/EnemigoBlendSpace1D.EnemigoBlendSpace1D]
+[2017.11.27-23.21.01:041][542]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animaciones/EnemigoBlendSpace1D]
+[2017.11.27-23.21.01:082][542]LogSavePackage: Save=32.04ms
+[2017.11.27-23.21.01:082][542]LogSavePackage: Moving '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/EnemigoBlendSpace1D_Auto2B045720A44C7BF8148B095AD1ABF8292.tmp' to '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/Autosaves/Game/Animaciones/EnemigoBlendSpace1D_Auto2.uasset'
+[2017.11.27-23.21.01:084][542]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/Autosaves/Game/Animaciones/EnemigoBlendSpace1D_Auto2.uasset
+[2017.11.27-23.21.01:086][542]LogFileHelpers: Auto-saving content packages took 0.075
+[2017.11.27-23.24.10:372][931]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.11.27-23.24.10:410][931]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.11.27-23.24.10:764][931]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.11.27-23.24.14:178][985]LogSavePackage: Save=15.48ms
+[2017.11.27-23.24.14:178][985]LogSavePackage: Moving '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/EnemigoBlendSpace1D5D801A9C436721AA3E8D9F9B53E6FB87.tmp' to '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Animaciones/EnemigoBlendSpace1D.uasset'
+[2017.11.27-23.24.14:184][985]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Animaciones/EnemigoBlendSpace1D.uasset
+[2017.11.27-23.24.15:322][  2]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.27-23.24.35:027][487]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2017.11.27-23.25.23:849][838]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.11.27-23.25.24:094][838]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.11.27-23.28.18:384][465]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.11.27-23.31.12:031][829]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level2' took 0.051
+[2017.11.27-23.31.12:032][829]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animaciones/EnemigoAnimBlueprint] ([1] browsable assets)...
+[2017.11.27-23.31.12:053][829]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Animaciones/EnemigoAnimBlueprint.EnemigoAnimBlueprint]
+[2017.11.27-23.31.12:053][829]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animaciones/EnemigoAnimBlueprint]
+[2017.11.27-23.31.12:088][829]LogSavePackage: Save=32.69ms
+[2017.11.27-23.31.12:088][829]LogSavePackage: Moving '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/EnemigoAnimBlueprint_Auto30AF5AB734017209ED83A4BABF765BD64.tmp' to '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/Autosaves/Game/Animaciones/EnemigoAnimBlueprint_Auto3.uasset'
+[2017.11.27-23.31.12:090][829]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/Autosaves/Game/Animaciones/EnemigoAnimBlueprint_Auto3.uasset
+[2017.11.27-23.31.12:090][829]LogFileHelpers: Auto-saving content packages took 0.058
+[2017.11.27-23.31.33:647][ 16]BlueprintLog: New page: Compile EnemigoAnimBlueprint
+[2017.11.27-23.33.14:609][944]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.11.27-23.33.20:729][ 51]BlueprintLog: New page: Compile Enemigo
+[2017.11.27-23.33.20:786][ 51]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Level2.Level2:PersistentLevel.Enemigo2_20.CollisionCylinder is already used by CapsuleComponent /Game/Level2.Level2:PersistentLevel.REINST_Enemigo_C_2.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.27-23.33.20:786][ 51]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Level2.Level2:PersistentLevel.Enemigo2_20.Arrow is already used by ArrowComponent /Game/Level2.Level2:PersistentLevel.REINST_Enemigo_C_2.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.27-23.33.20:786][ 51]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Level2.Level2:PersistentLevel.Enemigo2_20.CharMoveComp is already used by CharacterMovementComponent /Game/Level2.Level2:PersistentLevel.REINST_Enemigo_C_2.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.27-23.33.20:786][ 51]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Level2.Level2:PersistentLevel.Enemigo2_20.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Level2.Level2:PersistentLevel.REINST_Enemigo_C_2.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.27-23.33.21:858][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigo" FILE="../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Enemigo.uasset" SILENT=true
+[2017.11.27-23.33.21:925][ 62]LogSavePackage: Save=53.12ms
+[2017.11.27-23.33.21:925][ 62]LogSavePackage: Moving '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/Enemigo0506FC70432BBEB6F478C9A1309024D0.tmp' to '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Enemigo.uasset'
+[2017.11.27-23.33.21:929][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Enemigo.uasset
+[2017.11.27-23.33.30:469][262]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-23.33.30:492][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-23.33.30:492][262]PIE: New page: PIE session: Level2 (Nov 28, 2017, 1:33:30 AM)
+[2017.11.27-23.33.30:492][262]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2017.11.27-23.33.30:527][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034366s)
+[2017.11.27-23.33.30:527][262]LogAIModule: Creating AISystem for world Level2
+[2017.11.27-23.33.30:528][262]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2017.11.27-23.33.30:528][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.035749s)
+[2017.11.27-23.33.30:575][262]LogInit: XAudio2 using 'Altavoces (USB headset BSF)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-23.33.30:585][262]LogInit: FAudioDevice initialized.
+[2017.11.27-23.33.30:616][262]LogLoad: Game class is 'ModoSupervivencia_C'
+[2017.11.27-23.33.30:620][262]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2017.11.28-00.33.30
+[2017.11.27-23.33.30:621][262]LogWorld: Bringing up level for play took: 0.005117
+[2017.11.27-23.33.30:624][262]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 0.83
+[2017.11.27-23.35.44:860][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level2" FILE="../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Level2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.27-23.35.45:204][289]LogSavePackage: Save=288.60ms
+[2017.11.27-23.35.45:204][289]LogSavePackage: Moving '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/Level261F3D2644093651E1736DB9C4E043060.tmp' to '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Level2.umap'
+[2017.11.27-23.35.45:213][289]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Level2.umap
+[2017.11.27-23.35.56:987][306]LogSavePackage: Save=42.85ms
+[2017.11.27-23.35.56:987][306]LogSavePackage: Moving '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/EnemigoAnimBlueprintD19A6F6843E9023C396848AA21A10051.tmp' to '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Animaciones/EnemigoAnimBlueprint.uasset'
+[2017.11.27-23.35.56:991][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Animaciones/EnemigoAnimBlueprint.uasset
+[2017.11.27-23.35.57:332][306]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.27-23.35.57:545][307]Cmd: QUIT_EDITOR
+[2017.11.27-23.35.58:050][307]LogExit: Preparing to exit.
+[2017.11.27-23.35.58:431][307]LogDirectoryWatcher: A directory notification for 'C:/Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/' was aborted.
+[2017.11.27-23.35.58:476][307]LogExit: Editor shut down
+[2017.11.27-23.35.58:481][307]LogExit: Transaction tracking system shut down
+[2017.11.27-23.35.58:603][307]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.27-23.35.58:603][307]LogExit: Object subsystem successfully closed.
+[2017.11.27-23.35.58:635][307]LogD3D11RHI: Shutdown
+[2017.11.27-23.35.58:635][307]LogD3D11RHI: CleanupD3DDevice
+[2017.11.27-23.35.58:732][307]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.27-23.35.58:747][307]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (538)
+[2017.11.27-23.35.58:747][307]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (536)
+[2017.11.27-23.35.58:747][307]LogModuleManager: Shutting down and abandoning module SkeletonEditor (534)
+[2017.11.27-23.35.58:747][307]LogModuleManager: Shutting down and abandoning module AnimationEditor (532)
+[2017.11.27-23.35.58:747][307]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.11.27-23.35.58:747][307]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.11.27-23.35.58:747][307]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.11.27-23.35.58:748][307]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.11.27-23.35.58:748][307]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.11.27-23.35.58:748][307]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.11.27-23.35.58:748][307]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.11.27-23.35.58:748][307]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.11.27-23.35.58:749][307]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.11.27-23.35.58:749][307]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.11.27-23.35.58:749][307]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.11.27-23.35.58:749][307]LogDirectoryWatcher: A directory notification for 'C:/Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Collections/' was aborted.
+[2017.11.27-23.35.58:749][307]LogDirectoryWatcher: A directory notification for 'C:/Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/Developers/jordansoy/Collections/' was aborted.
+[2017.11.27-23.35.58:749][307]LogDirectoryWatcher: A directory notification for 'C:/Users/jordansoy/Documents/Unreal Projects/Supervivencia/Saved/Collections/' was aborted.
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.11.27-23.35.58:750][307]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.11.27-23.35.58:751][307]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.11.27-23.35.59:364][307]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.11.27-23.35.59:365][307]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.11.27-23.35.59:365][307]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.11.27-23.35.59:365][307]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.11.27-23.35.59:365][307]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.11.27-23.35.59:365][307]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.11.27-23.35.59:365][307]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.11.27-23.35.59:365][307]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.11.27-23.35.59:429][307]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.11.27-23.35.59:429][307]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.11.27-23.35.59:429][307]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.11.27-23.35.59:429][307]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.11.27-23.35.59:429][307]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.11.27-23.35.59:429][307]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.11.27-23.35.59:429][307]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.11.27-23.35.59:429][307]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.11.27-23.35.59:429][307]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.11.27-23.35.59:429][307]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.11.27-23.35.59:441][307]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.11.27-23.35.59:442][307]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.11.27-23.35.59:605][307]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.11.27-23.35.59:606][307]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.11.27-23.35.59:606][307]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.11.27-23.35.59:606][307]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.11.27-23.35.59:606][307]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.11.27-23.35.59:606][307]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.11.27-23.35.59:606][307]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.11.27-23.35.59:606][307]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.11.27-23.35.59:606][307]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.11.27-23.35.59:606][307]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.11.27-23.35.59:606][307]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.11.27-23.35.59:606][307]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.11.27-23.35.59:606][307]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.11.27-23.35.59:606][307]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.11.27-23.35.59:606][307]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.11.27-23.35.59:607][307]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.11.27-23.35.59:607][307]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.11.27-23.35.59:607][307]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.11.27-23.35.59:608][307]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.11.27-23.35.59:608][307]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.11.27-23.35.59:608][307]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.11.27-23.35.59:608][307]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.11.27-23.35.59:608][307]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.11.27-23.35.59:608][307]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.11.27-23.35.59:710][307]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.11.27-23.35.59:811][307]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.11.27-23.35.59:811][307]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.11.27-23.35.59:811][307]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.11.27-23.35.59:811][307]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.11.27-23.35.59:811][307]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.11.27-23.35.59:811][307]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.11.27-23.35.59:812][307]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.11.27-23.35.59:814][307]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.11.27-23.35.59:814][307]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.11.27-23.35.59:814][307]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.11.27-23.35.59:814][307]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.11.27-23.35.59:814][307]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.11.27-23.35.59:814][307]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.11.27-23.35.59:879][307]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.27-23.35.59:879][307]LogDirectoryWatcher: A directory notification for '../../../../../../Users/jordansoy/Documents/Unreal Projects/Supervivencia/Content/' was aborted.
+[2017.11.27-23.35.59:879][307]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.27-23.35.59:879][307]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.11.27-23.35.59:882][307]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.11.27-23.35.59:883][307]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.11.27-23.35.59:883][307]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.11.27-23.35.59:883][307]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.11.27-23.35.59:883][307]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.11.27-23.35.59:883][307]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.11.27-23.35.59:883][307]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.11.27-23.35.59:883][307]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.11.27-23.35.59:883][307]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.27-23.35.59:907][307]LogDerivedDataCache: Shutdown
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.27-23.35.59:907][307]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.27-23.35.59:908][307]LogOnline:Display: Unloading online subsystem: NULL
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.27-23.35.59:908][307]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.27-23.35.59:908][307]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.27-23.35.59:908][307]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE636E6DF-40D9-30A8-8ED7-E59783411D41%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=55d5e35549391aeed6dbefa12c62ecd4%7C54df08e254f74fdab59a7e97ca138ec8%7C724b85d6-052f-4a43-aa7d-40a7b4070990&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.27-23.35.59:935][307]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.27-23.35.59:936][307]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.11.27-23.35.59:936][307]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.11.27-23.35.59:936][307]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.11.27-23.35.59:936][307]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.11.27-23.35.59:936][307]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.11.27-23.35.59:937][307]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.11.27-23.35.59:937][307]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.11.27-23.35.59:937][307]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.11.27-23.35.59:938][307]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.11.27-23.35.59:938][307]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.11.27-23.35.59:938][307]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.11.27-23.35.59:938][307]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.11.27-23.35.59:938][307]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.11.27-23.35.59:938][307]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.11.27-23.35.59:938][307]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.11.27-23.35.59:938][307]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.27-23.35.59:938][307]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.27-23.35.59:938][307]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.27-23.35.59:939][307]LogExit: Exiting.
+[2017.11.27-23.35.59:957][307]Log file closed, 11/28/17 00:35:59
